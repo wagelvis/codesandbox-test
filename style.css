@@ -9,10 +9,15 @@
 body {
   width: 100%;
   min-height: 100vh;
-  display: flex;
+  /* Centrado con flexbox */
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   text-align: center;
   padding: 0 1rem;
+  /* Centrado con grid */
+  display: grid;
+  place-items: center;
+  place-content: center;
 }
